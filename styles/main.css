@@ -1,0 +1,136 @@
+body {
+  padding-bottom: 60px;
+}
+
+h1 {
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 8%;
+  color: hsla(0, 0%, 100%, 0.87);
+}
+
+h6 {
+  text-align: left;
+  padding-left: 8%;
+  color: hsla(0, 0%, 100%, 0.87);
+}
+
+header {
+  background: url(../img/sf.png) center / cover;
+  width: 90%;
+  margin: 0 auto;
+  height: 30vh;
+  justify-content: center;
+  text-align: left;
+  padding-top: 0;
+}
+
+/*adjust spacing of checkbox*/
+.checkdiv {
+  text-align: center;
+  padding-top: 13px;
+}
+
+.lidiv {
+  word-wrap: break-word;
+  font-size: 1.2em;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  color: #717171;
+}
+
+.formdiv {
+  width: 70%;
+  margin: auto;
+}
+
+#addToDoForm {
+  width: 100%;
+  border-radius: 25px;
+  background: #FFFFFF;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#newToDoText {
+  width: 95%;
+}
+
+.maincont {
+  margin: 0 auto;
+}
+
+.formholder {
+width: 90%;
+margin: 15px auto;
+border: 1px solid #f0f0f0;
+border-radius: 25px;
+}
+
+.addhold {
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+/*******button positioning*/
+.addtask {
+  width: 80px;
+}
+
+
+/*delete img*/
+.delimg {
+  width: 24px;
+  height: 24px;
+}
+
+.mainholder {
+  width: 97%;
+}
+
+#contain {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  min-height: 50px;
+  width: 100%;
+
+
+}
+
+#toDoList {
+  min-height: 50px;
+  width: 95%;/*formerly 100*/
+  margin: auto;
+}
+
+
+main {
+  width: 100%;
+}
+
+
+
+
+/*
+#addToDoForm {
+  padding-left: 3%;
+}
+*/
+
+/*adjust spacing of delete img */
+.delhold {
+  text-align: right;
+  /*border: 1px solid;*/
+  padding-top: 10px;
+  padding-right: 2%;
+}
+
+
+/****
+li {
+  min-width: 50%;
+  min-height: 10px;
+}
+****/
